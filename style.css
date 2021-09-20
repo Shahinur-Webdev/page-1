@@ -1,0 +1,863 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    
+}
+
+.custom-container{
+    width: 85%; 
+    margin: auto; 
+}
+
+
+
+/*--------- header section start--------- */
+
+.header-top{
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.ht-left{
+    width: 30%; 
+    float: left;
+    overflow: hidden;
+}
+.ht-logo{
+    width: 50%; 
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.ht-logo img{
+    width: 500px;
+    margin: auto;
+}
+.ht-right{
+    width: 20%; 
+    overflow: hidden;
+    text-align: right;
+}
+.ht-right img{
+    width: 100px;
+    padding-top: 20px;
+}
+
+.ht-left a{
+    font-size: 33px; 
+    color: #000; 
+    text-decoration: none;
+}
+
+
+
+/*----- menu-section-start ----*/
+.menu-section{
+    overflow: hidden;
+    padding-bottom: 18px;
+    padding-top: 10px;
+    position: sticky;
+    top: 0; 
+    background: #fff;
+    z-index: 999;
+
+}
+.mobile-logo{
+
+}
+.navbar-toggler {
+	background: rgb(27, 27, 27) !important;
+}
+.navbar-toggler {
+	font-size: 16px;
+}
+
+.mobile-logo{
+    display: none ;
+}
+.mobile-logo img{
+    width: 210px;
+
+}
+.custom-menu {
+
+}
+.custom-menu li{
+    padding: 0 10px;
+}
+.custom-menu li a{
+    font-size: 20px; 
+    color: #000; 
+    text-decoration: none;
+    padding: 10px 64px;
+    transition: .1s;
+}
+.custom-menu li a:hover{
+    color:#b61a20;
+}
+
+/*----- menu-section-end ------*/
+
+
+
+
+/* -------Header end---------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------banner-section-start-here --------- */
+
+.banner-section{
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.banner-img{
+    background-image: url(banner-imag.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 100%; 
+    z-index: -1;
+    padding: 180px 0; 
+    overflow: hidden;
+}
+
+.banner-bottom{
+    background: #fff;
+    width: 65%; 
+    margin: auto; 
+    padding: 10px 20px; 
+    text-align: center;
+    margin-top: -50px; 
+    z-index: 999;
+    overflow: hidden;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, .09);
+}
+.banner-bottom h2{
+    font-size: 33px; 
+    font-weight: 600;
+    color: #000;
+}
+.banner-bottom p{
+    font-size: 20px;
+    color: #333;
+    font-weight: 400;
+}
+.newsletter-area {
+    padding-bottom: 10px;
+}
+.newsletter-area input:nth-child(1){
+    width: 73%; 
+    padding: 8px 2%;
+    font-size: 18px; 
+    border: 2px solid #323440;
+}
+.newsletter-area input:nth-child(1):focus{
+    outline: none;
+}
+.newsletter-area input:nth-child(2){
+    width: 25%;
+    padding: 8px 2%;
+    border-radius: 0px; 
+    font-size: 18px; 
+    letter-spacing: 1px;
+    border: 2px solid #323440;
+    background: #323440;
+    color: #fff; 
+    font-weight: 600;
+    margin-left: 1%;
+}
+.newsletter-area input:nth-child(2):hover{
+    
+    background: #191a24;
+}
+
+/* ----------banner-section-end-here --------- */
+
+
+
+
+/*---------- secund-banner-section-start-here ---------- */
+.secund-banner-section{
+    overflow: hidden;
+}
+.banner-product-area{
+    overflow: hidden;
+}
+.b-single-product{
+    text-align: center;
+    overflow: hidden;
+}
+.b-single-product .b-img{
+    overflow: hidden;
+}
+.b-single-product .b-img a{
+    width: 100%; 
+}
+.b-single-product .b-img img{
+    transition: .5s;
+    width: 100%;
+    height: auto;
+}
+.b-single-product .b-img img:hover{
+    transform: scale(1.1);
+}
+.b-single-product a{
+    font-size: 17px; 
+    text-decoration: none; 
+    color: #000; 
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 10px; 
+    font-family: arial;
+    transition: .3s;
+}
+.b-single-product a:hover{
+    color: #555; 
+}
+
+
+.secund-banner-img{
+    padding: 24px 0; 
+}
+.secund-banner-img img{
+    width: 100%; 
+}
+
+
+/*---------- secund-banner-section-end-here ---------- */
+
+
+/*--------- latest-section-start-here --------- */
+.latest-section-area{
+    overflow: hidden;
+    padding: 30px 0; 
+
+}
+.c-border {
+	border: 1px solid #000 !important;
+}
+
+.latest-top{
+    width: 210px;
+    background: #fff;
+    text-align: center;
+    margin: auto; 
+    margin-top: -30px;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.latest-top h2{
+    font-size: 30px;
+    font-family: arial;
+    color: #000;
+    margin: 0; 
+}
+.latest-top span{
+    font-size: 14px; 
+    color: #333;
+    font-weight: 600;
+}
+
+.lates-product-area{
+    overflow: hidden;
+    padding: 34px 0; 
+
+}
+.latest-single-product {
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+    margin-bottom: 16px;
+}
+.l-product-img{
+    overflow: hidden;
+}
+.l-product-img img{
+    width: 100%;
+    transition: .5s;
+}
+.l-product-img img:hover{
+    transform: scale(1.1);
+}
+
+.l-product-content{
+    margin-top: 14px; 
+    padding: 0 14px;
+}
+.l-product-content p{
+    font-size: 17px;
+    color: #E10000; 
+    font-family: arial;
+    letter-spacing: .5px;
+    margin: 0; 
+    padding-bottom: 8px;
+}
+.l-product-content a{
+    font-size: 24px; 
+    color: #000;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    line-height: 34px;
+    margin-bottom: 20px;
+}
+.l-product-content a:hover{
+    color:#191a24;
+    text-decoration: underline;
+}
+.l-product-content span{
+    font-size: 16px;
+    font-family: arial;
+    letter-spacing: .7px;
+}
+.l-product-content span a{
+    font-size: 16px;
+    letter-spacing: .7px;
+    display: inline-block;
+    font-weight: 400;
+}
+.l-product-content span a:hover{
+    text-decoration: none;
+}
+.l-product-content .only-m{
+    padding-left: 50px !important;
+}
+
+
+.default-btn{
+    text-align: center;
+    margin-top: 40px;
+}
+.default-btn a{
+    font-size: 20px; 
+    text-decoration: none;
+    background: #323440;
+    color: #fff; 
+    font-weight: 600;
+    display: inline-block;
+    padding: 12px 30px; 
+}
+.default-btn a:hover{
+    background: #191a24;
+    color: #fff; 
+}
+
+/*--------- latest-section-end-here --------- */
+
+
+
+/*--------- cars-section-start-here --------- */
+.cars-section{
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+
+.cars-w{
+    width: 130px !important
+}
+.cars-area{
+    margin-top: 20px; 
+}
+.l-product-content .lpc{
+    font-size: 30px !important;
+    font-weight: 700;
+}
+.l-product-content .art-2{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.l-product-content .art{
+    display: block; 
+    font-size: 19px; 
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-weight: 200;  
+}
+.cars-w h2{
+    letter-spacing: 4px;
+}
+
+.dbtn-c{
+    margin-top: 10px !important;
+    margin-bottom: 50px !important
+
+}
+
+/*--------- cars-section-end-here --------- */
+
+
+
+/*--------- style-section-start-here ---------*/
+.style-section{
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+.style-area{
+    padding: 25px 0; 
+    overflow: hidden;
+}
+
+.l-product-content .art-3{
+    display: block; 
+    font-size: 17px; 
+    margin-top: -5px;
+    margin-bottom: 26px;
+    font-weight: 200;  
+}
+
+.style-m-l{
+    margin-left: 30px;
+}
+.style-m-r{
+    
+    margin-right: 30px;
+}
+.latest-single-product h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+/* ----- style-product ---- */
+.style-product{
+    overflow: hidden;
+}
+
+.style-s-product{
+    overflow: hidden;
+    border-top: 1px solid #000;
+    padding-top: 30px;
+    min-height: 220px;
+
+}
+.s-s-p-img{
+    overflow: hidden;
+    width: 35%; 
+    float: left;
+    overflow: hidden;
+}
+.s-s-p-content{
+    width: 65%; 
+    float: left;
+    overflow: hidden;
+    padding: 5px 20px;
+}
+.s-s-p-img img{
+    width: 100%;
+    height: auto; 
+    transition: .5s;
+    overflow: hidden;
+}
+
+.s-s-p-content a{
+    font-size: 20px;
+    color: #000; 
+    display: inline-block;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.s-s-p-content a:hover{
+    text-decoration: underline;
+    color:#191a24
+}
+
+.s-s-p-by span a,
+.s-s-p-by span{
+    font-size: 17px; 
+}
+.s-s-p-content .s-s-p-by span a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
+.style-s-product:hover .s-s-p-img img {
+    transform: scale(1.1);
+}
+
+/*--------- style-section-end-here ---------*/
+
+
+
+
+/*---------- most-popular-section-start-here ----------*/
+.most-popular-section{
+    overflow: hidden;
+    padding: 80px 0; 
+}
+
+
+.most-card-area{
+    background: #000; 
+    padding: 20px; 
+}
+.most-card-area h3{
+    font-size: 30px; 
+    color: #fff; 
+    letter-spacing: 2px;
+    margin-bottom: 26px;
+    padding-left: 20px;
+}
+
+.s-most-card{
+    padding: 14px 0; 
+    overflow: hidden;
+}
+
+.mp-img{
+    height: 150px;
+    width: 150px; 
+    border-radius: 50%; 
+    float: left;
+    overflow: hidden;
+    
+}
+.mp-content{
+    overflow: hidden;
+    padding-left: 20px;
+    padding-top: 4px;
+}
+.mp-img img{
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.s-most-card:hover .mp-img img{
+    transform: scale(1.1);
+}
+
+.mp-content > a{
+    font-size: 16px; 
+    color: #ff0000; 
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.mp-content > a:hover{
+    color: #ff0000; 
+}
+.mp-content h4 > a{
+    font-size: 18px; 
+    color: #fff; 
+    text-decoration: none;
+    display: inline-block;
+    line-height: 26px;
+    font-weight: 600;
+}
+.mp-content h4 > a:hover{
+    color:#ddd
+}
+
+.most-card-btn{
+    overflow: hidden;
+    margin-top: 20px; 
+}
+.most-card-btn a{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center; 
+    display: block;
+    background: #000;
+    padding: 10px 0; 
+    color: #fff; 
+    transition: .3s;
+}
+.most-card-btn a:hover{
+    color: #ddd; 
+    letter-spacing: 1px;
+    background: #191a24;
+}
+
+/*---------- most-popular-section-end-here ----------*/
+
+
+
+
+/*---------- brands-section-start-here ---------- */
+
+.brands-section{
+    overflow: hidden;
+    padding: 70px 0; 
+}
+
+.brands-title h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.brands-title h3::after{
+    content: '';
+    height: 4px; 
+    width: 100%; 
+    background: #000;
+    position: absolute;
+    left: 0; 
+    bottom: -9px; 
+}
+
+
+.brands-product-area{
+    overflow: hidden;
+    padding: 20px 0; 
+}
+
+.single-brands{
+    width: 18.4%; 
+    float: left;
+    overflow: hidden;
+}
+.single-brands{
+    margin-right: 2%; 
+}
+.single-brands:last-child{
+    margin-right: 0; 
+}
+.s-b-img{
+    overflow: hidden;
+}
+.s-b-img img{
+    width: 100%;
+    transition: .5s; 
+}
+.single-brands:hover .s-b-img img{
+    transform: scale(1.2);
+}
+.s-b-content{
+    
+}
+.s-b-content > a{
+    font-size: 16px; 
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 8px 0; 
+    display: inline-block;
+}
+
+.s-b-content > a:hover{
+    color: #555;
+}
+
+.s-b-content h5 > a{
+    font-size: 18px; 
+    color: #000; 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    line-height: 24px;
+}
+
+
+.s-b-content h5 > a:hover{
+    
+    color:#191a24
+}
+
+/*---------- brands-section-end-here ---------- */
+
+
+
+
+
+/*--------- subscription-section-start-here ---------*/
+
+.subscription-section{
+    overflow: hidden;
+    padding: 40px 0; 
+}
+
+.subscription-area{
+    overflow: hidden;
+}
+
+.subscription{
+    padding-bottom: 50px;
+}
+
+.subscription-title{
+    border-bottom: 2px solid #979797;
+    border-left: 2px solid #979797;
+    padding: 0 10px; 
+    margin-bottom: 50px;
+}
+.subscription-title span{
+    font-size: 18px; 
+    color: #333; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subscription-title a{
+    float: right;
+    text-decoration: none;
+    color: #e00101; 
+    font-size: 16px;
+    font-weight: 600;
+}
+.subscription-title a:hover{
+    color: #ff0000; 
+}
+
+
+.subscription-body{
+    padding: 0 30px; 
+}
+
+.sub-img{
+    width: 36%; 
+    float: left;
+    overflow: hidden;
+    margin-right: 4%;
+    padding-top: 64px;
+}
+.sub-img img{
+    width: 100%;
+    height: auto; 
+}
+
+.sub-content{
+    width: 60%; 
+    overflow: hidden;
+    padding-right: 28px; 
+    padding-left: 8px;
+}
+.sub-content h3{
+    font-size: 25px; 
+    color: #000;
+    line-height: 36px;
+}
+.sub-content p{
+    font-size: 19px; 
+    color: #000; 
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 18px; 
+    margin-bottom: 25px;
+}
+
+.sub-btn{
+    text-align: center;
+    margin-top: 40px; 
+}
+.sub-btn a{
+    text-decoration: none;
+    color: #fff; 
+    display: inline-block;
+    background: #e01f20; 
+    padding: 9px 34px; 
+    font-size: 18px;
+    font-weight: 600;
+}
+.sub-btn a:hover{
+    color: #fff; 
+    background: #c70000; 
+}
+
+.subscription-video{
+    padding: 0 40px;
+}
+.s-v-title{
+    text-align: center;
+}
+.s-v-title h3{
+    font-size: 28px; 
+    color:#000; 
+    font-weight: 600;
+    margin: 10px 0;
+}
+.s-v-title p{
+    font-size: 18px; 
+    color: #000; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s-v-title a{
+    font-size: 18px; 
+    color: #d40000; 
+}
+.s-v-title a:hover{
+    color: #c70000; 
+}
+/*--------- subscription-section-end-here ---------*/
+
+
+
+
+/*---- Foter Section start-------- */
+.footer-section{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+.single-footer h4{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer-section .footer-menu{
+    text-align: left;
+}
+.footer-section .footer-menu ul{
+    padding: 0;
+    list-style: none;
+}
+.footer-section .footer-menu ul li{
+}
+.footer-section .footer-menu ul li a{
+    font-style: none  ;
+    text-decoration: none;
+    color: #ddd;
+    transition: .5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 26px;
+}
+.footer-section .footer-menu ul li a:hover{
+    color: #d02027;
+}
+.robb-h1{
+    font-size: 50px;
+    text-align: center ;
+    margin: 20px 0;
+}
+.robb-p{
+    text-align: center;
+    margin: 0; 
+    font-weight: 600;
+    color: #ddd;
+    font-size: 19px;
+}
+  /*--- Footer section stop----------- */
+
+
+
+
+
+
+
+
+
