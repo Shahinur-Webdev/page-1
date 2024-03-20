@@ -1,0 +1,8 @@
+    $(window).on('scroll',function(){
+        var scroll = $(window).scrollTop(); 
+        if(scroll < 10) {
+            $(".header-section").removeClass("scroll-header");
+        }else{
+            $(".header-section").addClass("scroll-header");
+        }
+    });
